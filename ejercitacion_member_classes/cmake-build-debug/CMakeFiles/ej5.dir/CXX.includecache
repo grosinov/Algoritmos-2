@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/grosinov/Rosinov/Algoritmos2/ejercitacion_member_classes/src/Diccionario.cpp
+Diccionario.h
+/home/grosinov/Rosinov/Algoritmos2/ejercitacion_member_classes/src/Diccionario.h
+
+/home/grosinov/Rosinov/Algoritmos2/ejercitacion_member_classes/src/Diccionario.h
+vector
+-
+

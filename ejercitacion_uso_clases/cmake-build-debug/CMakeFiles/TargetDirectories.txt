@@ -1,0 +1,4 @@
+/home/grosinov/Rosinov/Algoritmos2/ejercitacion_uso_clases/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/grosinov/Rosinov/Algoritmos2/ejercitacion_uso_clases/cmake-build-debug/CMakeFiles/tests_algobot.dir
+/home/grosinov/Rosinov/Algoritmos2/ejercitacion_uso_clases/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/grosinov/Rosinov/Algoritmos2/ejercitacion_uso_clases/cmake-build-debug/CMakeFiles/tests_ejercitacion.dir
