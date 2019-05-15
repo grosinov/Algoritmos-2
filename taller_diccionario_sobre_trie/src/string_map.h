@@ -82,6 +82,8 @@ private:
 
     Nodo* raiz;
     int _size;
+
+    void borradoTotal(Nodo* a);
 };
 
 #include "string_map.hpp"

@@ -43,10 +43,10 @@ RM = /opt/clion-2019.1/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB
+CMAKE_SOURCE_DIR = /home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug
+CMAKE_BINARY_DIR = /home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug
 
 # Utility rule file for correrValgrind.
 
@@ -71,6 +71,6 @@ CMakeFiles/correrValgrind.dir/clean:
 .PHONY : CMakeFiles/correrValgrind.dir/clean
 
 CMakeFiles/correrValgrind.dir/depend:
-	cd /home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB /home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB /home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug /home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug /home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/correrValgrind.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB /home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB /home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug /home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug /home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/correrValgrind.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/correrValgrind.dir/depend
 

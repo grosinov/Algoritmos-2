@@ -1,6 +1,6 @@
-/home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/correrValgrind.dir
-/home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/correrTests.dir
-/home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/gtest.dir
-/home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/grosinov/Dropbox/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/gtest_main.dir
+/home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/correrValgrind.dir
+/home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/correrTests.dir
+/home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/gtest.dir
+/home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/grosinov/Rosinov/Algoritmos2/taller_conjunto_sobre_ABB/cmake-build-debug/CMakeFiles/gtest_main.dir

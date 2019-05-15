@@ -119,6 +119,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -139,31 +140,31 @@
     </option>
   </component>
   <component name="RunManager" selected="Google Test.correrTests">
-    <configuration name="conjunto_test.test_remover_caso_dos_hijos_doble" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_abb" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_abb" RUN_TARGET_NAME="correrTests" TEST_CLASS="conjunto_test" TEST_METHOD="test_remover_caso_dos_hijos_doble" TEST_MODE="SUITE_TEST">
+    <configuration name="conjunto_test.test_remover_caso_dos_hijos_doble" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_abb" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="taller_abb" RUN_TARGET_NAME="correrTests" TEST_CLASS="conjunto_test" TEST_METHOD="test_remover_caso_dos_hijos_doble" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="conjunto_test.test_remover_caso_dos_hijos_simple" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_abb" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_abb" RUN_TARGET_NAME="correrTests" TEST_CLASS="conjunto_test" TEST_METHOD="test_remover_caso_dos_hijos_simple" TEST_MODE="SUITE_TEST">
+    <configuration name="conjunto_test.test_remover_caso_dos_hijos_simple" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_abb" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="taller_abb" RUN_TARGET_NAME="correrTests" TEST_CLASS="conjunto_test" TEST_METHOD="test_remover_caso_dos_hijos_simple" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="conjunto_test.test_remover_caso_un_hijo" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_abb" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_abb" RUN_TARGET_NAME="correrTests" TEST_CLASS="conjunto_test" TEST_METHOD="test_remover_caso_un_hijo" TEST_MODE="SUITE_TEST">
+    <configuration name="conjunto_test.test_remover_caso_un_hijo" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_abb" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="taller_abb" RUN_TARGET_NAME="correrTests" TEST_CLASS="conjunto_test" TEST_METHOD="test_remover_caso_un_hijo" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="conjunto_test.test_siguiente_inorder" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_abb" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_abb" RUN_TARGET_NAME="correrTests" TEST_CLASS="conjunto_test" TEST_METHOD="test_siguiente_inorder" TEST_MODE="SUITE_TEST">
+    <configuration name="conjunto_test.test_siguiente_inorder" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_abb" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="taller_abb" RUN_TARGET_NAME="correrTests" TEST_CLASS="conjunto_test" TEST_METHOD="test_siguiente_inorder" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="conjunto_test.test_stress" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_abb" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_abb" RUN_TARGET_NAME="correrTests" TEST_CLASS="conjunto_test" TEST_METHOD="test_stress" TEST_MODE="SUITE_TEST">
+    <configuration name="conjunto_test.test_stress" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_abb" TARGET_NAME="correrTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="taller_abb" RUN_TARGET_NAME="correrTests" TEST_CLASS="conjunto_test" TEST_METHOD="test_stress" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
