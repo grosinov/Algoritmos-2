@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="taller_abb" targetName="gtest" />
-      <config projectName="taller_abb" targetName="correrTests" />
       <config projectName="taller_abb" targetName="correrValgrind" />
+      <config projectName="taller_abb" targetName="correrTests" />
+      <config projectName="taller_abb" targetName="gtest" />
       <config projectName="taller_abb" targetName="gtest_main" />
     </generated>
   </component>
@@ -14,7 +14,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7592a4bb-0094-4383-aaca-e89da6e1da92" name="Default Changelist" comment="" />
+    <list default="true" id="7592a4bb-0094-4383-aaca-e89da6e1da92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/src/string_map.h" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/src/string_map.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/src/string_map.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/src/string_map.hpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,10 +32,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Conjunto.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
+            <state relative-caret-position="361">
               <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
             </state>
           </provider>
@@ -40,16 +44,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Conjunto.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="3192">
               <caret line="168" column="33" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/conjunto-tests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1292">
+            <state relative-caret-position="19">
               <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -61,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/gtest-1.8.1/gtest-all.cc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="74062">
               <caret line="3898" selection-start-line="3898" selection-end-line="3898" />
             </state>
           </provider>
@@ -74,6 +78,9 @@
       <find>actual</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -83,12 +90,20 @@
       </list>
     </option>
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
     <option name="y" value="86" />
     <option name="width" value="926" />
     <option name="height" value="1020" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -224,6 +239,7 @@
       <updated>1557349064930</updated>
       <workItem from="1557349074406" duration="15125000" />
       <workItem from="1557603053037" duration="15934000" />
+      <workItem from="1557960913934" duration="761000" />
     </task>
     <servers />
   </component>
@@ -260,7 +276,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31059000" />
+    <option name="totallyTimeSpent" value="31820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,7 +291,7 @@
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15528281" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15688367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -312,34 +328,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Conjunto.h">
+    <entry file="file://$PROJECT_DIR$/src/Conjunto.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
+        <state relative-caret-position="3192">
+          <caret line="168" column="33" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/gtest-1.8.1/gtest-all.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="74062">
           <caret line="3898" selection-start-line="3898" selection-end-line="3898" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Conjunto.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="168" column="33" selection-start-line="168" selection-start-column="33" selection-end-line="168" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/conjunto-tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1292">
+        <state relative-caret-position="19">
           <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Conjunto.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
         </state>
       </provider>
     </entry>

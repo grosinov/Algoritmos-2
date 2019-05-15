@@ -84,6 +84,8 @@ private:
     int _size;
 
     void borradoTotal(Nodo* a);
+
+    int cantHijos(Nodo* a);
 };
 
 #include "string_map.hpp"
