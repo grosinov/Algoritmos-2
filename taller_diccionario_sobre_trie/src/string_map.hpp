@@ -37,11 +37,11 @@ void string_map<T>::borradoTotal(string_map<T>::Nodo *a) {
             if(a->siguientes[i] != NULL){
                 borradoTotal(a->siguientes[i]);
                 a->siguientes[i] == NULL;
-                a->definicion == NULL;
-                delete a;
                 //si hay problemas de memoria ver esta funcion
             }
         }
+        a->definicion == NULL;
+        delete a;
     }
 }
 
