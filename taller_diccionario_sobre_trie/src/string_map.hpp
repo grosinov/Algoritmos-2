@@ -116,21 +116,14 @@ int string_map<T>::cantHijos(string_map<T>::Nodo *a) {
 template <typename T>
 void string_map<T>::erase(const string& clave) {
     Nodo* actual = raiz;
-    stack <Nodo*> ancestros;
+    Nodo* borrarDesde = actual;
     for(char c : clave) {
-        ancestros.push(actual);
+        if(cantHijos(actual) > 1 || actual->definicion != NULL) {
+            borrarDesde = actual->siguientes[int(c)];
+        }
         actual = actual->siguientes[int(c)];
     }
-    actual->definicion == NULL;
-    delete actual->definicion;
-    while (ancestros.size() != 0) {
-        if(ancestros.top()->definicion == NULL && cantHijos(ancestros.top()) == 1) {
-            delete ancestros.top();
-            ancestros.pop();
-        } else {
-            break;
-        }
-    }
+    borradoTotal(borrarDesde);
 
 }
 
