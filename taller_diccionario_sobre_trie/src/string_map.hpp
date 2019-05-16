@@ -11,19 +11,29 @@ template <typename T>
 string_map<T>::string_map(const string_map<T>& aCopiar) : string_map() { *this = aCopiar; } // Provisto por la catedra: utiliza el operador asignacion para realizar la copia.
 
 template <typename T>
+string_map<T>& string_map<T>::referencia(string_map<T>::Nodo *a, string_map<T>::Nodo *d) {
+    for(int i = 0; i < d->siguientes.size(); i++) {
+        if(d->siguientes[i] != NULL) {
+            a->siguientes[i] = new Nodo(d->siguientes[i]->definicion);
+            referencia(a->siguientes[i], d->siguientes[i]);
+        }
+    }
+}
+
+template <typename T>
 string_map<T>& string_map<T>::operator=(const string_map<T>& d) {
-    borradoTotal(raiz);
-    Nodo* nuevo = new Nodo();
-    nuevo->siguientes = d.raiz->siguientes;
-    nuevo->definicion = d.raiz->definicion;
-    raiz = nuevo;
+    if(d.raiz != NULL) {
+        borradoTotal(raiz);
+        raiz = new Nodo(d.raiz->definicion);
+        referencia(raiz, d.raiz);
+    }
 
 }
 
 template <typename T>
 void string_map<T>::borradoTotal(string_map<T>::Nodo *a) {
     if(a != NULL) {
-        for(int i = 0; i < a->siguientes; i++) {
+        for(int i = 0; i < a->siguientes.size(); i++) {
             if(a->siguientes[i] != NULL){
                 borradoTotal(a->siguientes[i]);
                 a->siguientes[i] == NULL;
@@ -46,15 +56,12 @@ T& string_map<T>::operator[](const string& clave){
         Nodo* actual = raiz;
         for(char c : clave) {
             if(actual->siguientes[int(c)] == NULL) {
-                Nodo* nuevo = new Nodo();
-                actual->siguientes[int(c)] = nuevo;
-                actual = nuevo;
-                _size++;
-            } else {
-                actual = actual->siguientes[int(c)];
+                actual->siguientes[int(c)] = new Nodo();
             }
+            actual = actual->siguientes[int(c)];
         }
-        actual->definicion = T();
+        actual->definicion = new T();
+        _size++;
         return *(actual->definicion);
     } else {
         return at(clave);
@@ -98,7 +105,7 @@ T& string_map<T>::at(const string& clave) {
 template <typename T>
 int string_map<T>::cantHijos(string_map<T>::Nodo *a) {
     int canthijos = 0;
-    for(int i = 0; i< a->siguientes; i++) {
+    for(int i = 0; i< a->siguientes.size(); i++) {
         if(a->siguientes[i]!=NULL) {
             canthijos++;
         }
@@ -115,10 +122,10 @@ void string_map<T>::erase(const string& clave) {
         actual = actual->siguientes[int(c)];
     }
     actual->definicion == NULL;
-    for(Nodo* b : ancestros) {
+    while (ancestros.size() != 0) {
         if(ancestros.top()->definicion == NULL && cantHijos(ancestros.top()) == 0) {
             delete ancestros.top();
-            ancestros.push();
+            ancestros.pop();
         } else {
             break;
         }
@@ -128,7 +135,7 @@ void string_map<T>::erase(const string& clave) {
 
 template <typename T>
 int string_map<T>::size() const{
-    return size;
+    return _size;
 }
 
 template <typename T>
