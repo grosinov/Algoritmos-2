@@ -37,7 +37,6 @@ void string_map<T>::borradoTotal(string_map<T>::Nodo *a) {
             if(a->siguientes[i] != NULL){
                 borradoTotal(a->siguientes[i]);
                 a->siguientes[i] == NULL;
-                //si hay problemas de memoria ver esta funcion
             }
         }
         a->definicion == NULL;
@@ -81,7 +80,8 @@ int string_map<T>::count(const string& clave) const{
             }
         }
     }
-    return 1;
+
+    return actual->definicion != NULL;
 }
 
 template <typename T>
@@ -116,14 +116,15 @@ int string_map<T>::cantHijos(string_map<T>::Nodo *a) {
 template <typename T>
 void string_map<T>::erase(const string& clave) {
     Nodo* actual = raiz;
-    stack<Nodo*> ancestros;
+    stack <Nodo*> ancestros;
     for(char c : clave) {
         ancestros.push(actual);
         actual = actual->siguientes[int(c)];
     }
     actual->definicion == NULL;
+    delete actual->definicion;
     while (ancestros.size() != 0) {
-        if(ancestros.top()->definicion == NULL && cantHijos(ancestros.top()) == 0) {
+        if(ancestros.top()->definicion == NULL && cantHijos(ancestros.top()) == 1) {
             delete ancestros.top();
             ancestros.pop();
         } else {

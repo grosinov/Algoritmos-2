@@ -16,12 +16,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7592a4bb-0094-4383-aaca-e89da6e1da92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/CMakeFiles/correrTests.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/CMakeFiles/correrTests.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/CMakeFiles/gtest.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/CMakeFiles/gtest.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/CMakeFiles/gtest_main.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/CMakeFiles/gtest_main.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/src/string_map.h" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/src/string_map.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/correrTests" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/correrTests" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/src/string_map.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/src/string_map.hpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
