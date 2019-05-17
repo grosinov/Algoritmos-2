@@ -51,11 +51,16 @@ void string_map<T>::borradoTotal(string_map<T>::Nodo *a) {
 template <typename T>
 string_map<T>::~string_map(){
     borradoTotal(raiz);
+    delete raiz;
+    raiz = NULL;
 }
 
 template <typename T>
 T& string_map<T>::operator[](const string& clave){
     if(count(clave) == 0) {
+        if(raiz == NULL) {
+            raiz = new Nodo();
+        }
         Nodo* actual = raiz;
         for(char c : clave) {
             if(actual->siguientes[int(c)] == NULL) {
@@ -140,5 +145,5 @@ int string_map<T>::size() const{
 
 template <typename T>
 bool string_map<T>::empty() const{
-    return (cantHijos(raiz) == 0 && raiz->definicion == NULL);
+    return raiz == NULL || (cantHijos(raiz) == 0 && raiz->definicion == NULL);
 }
