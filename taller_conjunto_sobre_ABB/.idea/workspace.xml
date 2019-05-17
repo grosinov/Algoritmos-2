@@ -15,6 +15,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7592a4bb-0094-4383-aaca-e89da6e1da92" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/CMakeFiles/correrTests.dir/tests/string_map_tests.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/CMakeFiles/correrTests.dir/tests/string_map_tests.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/correrTests" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/cmake-build-debug/correrTests" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/src/string_map.h" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/src/string_map.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/src/string_map.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_diccionario_sobre_trie/src/string_map.hpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -30,10 +35,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Conjunto.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
+            <state relative-caret-position="648">
               <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
               <folding>
                 <element signature="e#41#60#0" expanded="true" />
@@ -51,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/conjunto-tests.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1102">
@@ -59,15 +64,6 @@
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/gtest-1.8.1/gtest-all.cc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74062">
-              <caret line="3898" selection-start-line="3898" selection-end-line="3898" />
             </state>
           </provider>
         </entry>
@@ -109,35 +105,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="taller_abb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taller_conjunto_sobre_ABB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taller_abb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taller_conjunto_sobre_ABB" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taller_abb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taller_conjunto_sobre_ABB" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../taller_diccionario_sobre_trie" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -242,6 +215,7 @@
       <workItem from="1557603053037" duration="15934000" />
       <workItem from="1557960913934" duration="761000" />
       <workItem from="1558020526656" duration="598000" />
+      <workItem from="1558116068609" duration="45000" />
     </task>
     <servers />
   </component>
@@ -278,7 +252,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32418000" />
+    <option name="totallyTimeSpent" value="32463000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,7 +265,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15688367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -332,7 +305,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Conjunto.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
+        <state relative-caret-position="648">
           <caret line="67" column="28" selection-start-line="67" selection-start-column="28" selection-end-line="67" selection-end-column="28" />
           <folding>
             <element signature="e#41#60#0" expanded="true" />
@@ -347,6 +320,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/gtest-1.8.1/gtest-all.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74062">
+          <caret line="3898" selection-start-line="3898" selection-end-line="3898" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/conjunto-tests.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
@@ -354,13 +334,6 @@
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/gtest-1.8.1/gtest-all.cc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74062">
-          <caret line="3898" selection-start-line="3898" selection-end-line="3898" />
         </state>
       </provider>
     </entry>

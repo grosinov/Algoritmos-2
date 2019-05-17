@@ -87,7 +87,7 @@ private:
 
     void borradoTotal(Nodo* a);
 
-    int cantHijos(Nodo* a);
+    int cantHijos(Nodo* a) const;
 
     string_map<T>& referencia(Nodo* a, Nodo* d);
 };
