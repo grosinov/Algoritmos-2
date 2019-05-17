@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/string_map.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/string_map_tests.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="911">
-              <caret line="131" selection-start-line="131" selection-end-line="131" />
+            <state relative-caret-position="189">
+              <caret line="155" selection-start-line="155" selection-end-line="155" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -226,14 +226,11 @@
       <updated>1557958933792</updated>
       <workItem from="1557958940801" duration="9121000" />
       <workItem from="1558020527694" duration="10253000" />
-      <workItem from="1558116115413" duration="7687000" />
+      <workItem from="1558116115413" duration="8363000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="string_map_test_no_aliasing - 2019.05.17 at 16h 31m 51s.xml">
-      <configuration name="string_map_test.no_aliasing" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="string_map_test_no_aliasing - 2019.05.17 at 16h 35m 14s.xml">
       <configuration name="string_map_test.no_aliasing" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
@@ -261,9 +258,12 @@
     <history-entry file="correrTests - 2019.05.17 at 17h 05m 28s.xml">
       <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="correrTests - 2019.05.17 at 17h 10m 30s.xml">
+      <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27061000" />
+    <option name="totallyTimeSpent" value="27737000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -321,7 +321,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/string_map.hpp</url>
-          <line>124</line>
+          <line>125</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
@@ -362,16 +362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/string_map_tests.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="911">
-          <caret line="131" selection-start-line="131" selection-end-line="131" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/gtest-1.8.1/gtest-all.cc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -386,10 +376,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/string_map_tests.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/string_map.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="148" column="1" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
