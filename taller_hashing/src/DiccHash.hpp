@@ -70,15 +70,19 @@ void DiccHash<V>::borrar(const string &clav) {
 /* Devuelve la cantidad de claves definidas en el diccionario. */
 template<class V>
 unsigned int DiccHash<V>::cantClaves() const {
-    // COMPLETAR
-    return 0;
+    return _cant_claves;
 }
 
 /* Devuelve el conjunto de claves del diccionario. */
 template<class V>
 set<string> DiccHash<V>::claves() const {
-    // COMPLETAR
-    return set<string>();
+    set<string> claves;
+    for(list<Asociacion> l : _tabla) {
+        for(Asociacion a : l) {
+            claves.insert(a.clave);
+        }
+    }
+    return claves;
 }
 
 /* SÓLO PARA TESTING
