@@ -3,7 +3,7 @@
 /* Constructor sin parámetros de la clase */
 template<class V>
 DiccHash<V>::DiccHash() {
-	// COMPLETAR
+	_cant_claves = 0;
 }
 
 /* Destructor */
@@ -17,7 +17,13 @@ DiccHash<V>::~DiccHash() {
  */
 template<class V>
 bool DiccHash<V>::definido(const string& clav) const {
-	// COMPLETAR
+	for (list<Asociacion> l : _tabla) {
+	    for (Asociacion a : l) {
+	        if(a.clave == clav) {
+                return true;
+	        }
+	    }
+	}
 	return false;
 }
 
