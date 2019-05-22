@@ -4,7 +4,7 @@
 template<class V>
 DiccHash<V>::DiccHash() {
     _cant_claves = 0;
-    _tam = 256;
+    _tam = TAM_INICIAL;
 }
 
 /* Destructor */
@@ -13,6 +13,7 @@ DiccHash<V>::~DiccHash() {
     delete _tabla;
     delete _cant_claves;
     delete _tam;
+
 }
 
 /* Devuelve true si la clave está definida en el diccionario.
@@ -46,7 +47,31 @@ bool DiccHash<V>::definido(const string &clav) const {
  */
 template<class V>
 void DiccHash<V>::definir(const string &clav, const V &sig) {
-    // COMPLETAR
+    if(definido(clav)) {
+        for(Asociacion a : _tabla[fn_hash(clav)]) {
+            if(a.clave == clav) {
+                a.valor = sig;
+            }
+        }
+    } else {
+        Asociacion a = new Asociacion;
+        a.clave = clav;
+        a.valor = sig;
+        _tabla[fn_hash(clav)].push_back(a);
+        _cant_claves++;
+
+        if(factorCarga() > UMBRAL_FC) {
+            _tam = 2*_tam;
+            vector<list<Asociacion>> tabla(_tam);
+            for(list<Asociacion> l : _tabla) {
+                for(Asociacion a : l) {
+                    l.push_back(a);
+                }
+            }
+            delete _tabla;
+            _tabla = tabla;
+        }
+    }
 }
 
 /* Busca en el diccionario el significado de la clave clav.
