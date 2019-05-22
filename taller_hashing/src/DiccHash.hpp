@@ -3,28 +3,29 @@
 /* Constructor sin parámetros de la clase */
 template<class V>
 DiccHash<V>::DiccHash() {
-	_cant_claves = 0;
+    _cant_claves = 0;
+    _tam = 256;
 }
 
 /* Destructor */
 template<class V>
 DiccHash<V>::~DiccHash() {
-	// COMPLETAR
+    delete _tabla;
+    delete _cant_claves;
+    delete _tam;
 }
 
 /* Devuelve true si la clave está definida en el diccionario.
  * - clav : clave a buscar
  */
 template<class V>
-bool DiccHash<V>::definido(const string& clav) const {
-	for (list<Asociacion> l : _tabla) {
-	    for (Asociacion a : l) {
-	        if(a.clave == clav) {
-                return true;
-	        }
-	    }
-	}
-	return false;
+bool DiccHash<V>::definido(const string &clav) const {
+    for (Asociacion a : _tabla[fn_hash(clav)]) {
+        if (a.clave == clav) {
+            return true;
+        }
+    }
+    return false;
 }
 
 /* Agrega una clave y su significado al Diccionario.
@@ -44,8 +45,8 @@ bool DiccHash<V>::definido(const string& clav) const {
  * - Liberar la memoria reservada para la tabla original.
  */
 template<class V>
-void DiccHash<V>::definir(const string& clav, const V& sig) {
-	// COMPLETAR
+void DiccHash<V>::definir(const string &clav, const V &sig) {
+    // COMPLETAR
 }
 
 /* Busca en el diccionario el significado de la clave clav.
@@ -53,8 +54,8 @@ void DiccHash<V>::definir(const string& clav, const V& sig) {
  * Devuelve el significado de clav.
  */
 template<class V>
-V& DiccHash<V>::significado(const string& clav) {
-	// COMPLETAR
+V &DiccHash<V>::significado(const string &clav) {
+    // COMPLETAR
 }
 
 /* Borra la clave del diccionario
@@ -62,22 +63,22 @@ V& DiccHash<V>::significado(const string& clav) {
  *
  * Precondición: clav está definida en el diccionario */
 template<class V>
-void DiccHash<V>::borrar(const string& clav) {
-	// COMPLETAR
+void DiccHash<V>::borrar(const string &clav) {
+    // COMPLETAR
 }
 
 /* Devuelve la cantidad de claves definidas en el diccionario. */
 template<class V>
 unsigned int DiccHash<V>::cantClaves() const {
-	// COMPLETAR
-	return 0;
+    // COMPLETAR
+    return 0;
 }
 
 /* Devuelve el conjunto de claves del diccionario. */
 template<class V>
 set<string> DiccHash<V>::claves() const {
-	// COMPLETAR
-	return set<string>();
+    // COMPLETAR
+    return set<string>();
 }
 
 /* SÓLO PARA TESTING
@@ -87,7 +88,7 @@ set<string> DiccHash<V>::claves() const {
  */
 template<class V>
 float DiccHash<V>::factorCarga() const {
-	return _cant_claves / _tam;
+    return _cant_claves / _tam;
 }
 
 /* SÓLO PARA TESTING
@@ -98,11 +99,11 @@ float DiccHash<V>::factorCarga() const {
  */
 template<class V>
 unsigned int DiccHash<V>::colisiones() const {
-	unsigned int suma = 0;
-	for (int i = 0; i < _tam; i++) {
-		suma += _tabla[i].size() * (_tabla[i].size() - 1) / 2;
-	}
-	return suma;
+    unsigned int suma = 0;
+    for (int i = 0; i < _tam; i++) {
+        suma += _tabla[i].size() * (_tabla[i].size() - 1) / 2;
+    }
+    return suma;
 }
 
 /* Función de hash.
@@ -111,8 +112,11 @@ unsigned int DiccHash<V>::colisiones() const {
  * Devuelve la posición de la tabla asociada a la clave dada.
  */
 template<class V>
-unsigned int DiccHash<V>::fn_hash(const string& str) const {
-	// COMPLETAR
-	return 0;
+unsigned int DiccHash<V>::fn_hash(const string &str) const {
+    int i;
+    for( i=0; i<str.length(); i++ ) {
+        i = 197*i + int(str[i]);
+    }
+    return i % _tam;
 }
 
