@@ -55,7 +55,11 @@ void DiccHash<V>::definir(const string &clav, const V &sig) {
  */
 template<class V>
 V &DiccHash<V>::significado(const string &clav) {
-    // COMPLETAR
+    for(Asociacion a : _tabla[fn_hash(clav)]) {
+        if(a.clave == clav) {
+            return a.valor;
+        }
+    }
 }
 
 /* Borra la clave del diccionario
