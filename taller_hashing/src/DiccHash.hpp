@@ -46,10 +46,7 @@ void DiccHash<V>::definir(const string &clav, const V &sig) {
             }
         }
     } else {
-        Asociacion a;
-        a.clave = clav;
-        a.valor = sig;
-        _tabla[fn_hash(clav)].push_back(a);
+        _tabla[fn_hash(clav)].push_back(Asociacion(clav, sig));
         _cant_claves++;
 
         if(factorCarga() > UMBRAL_FC) {
@@ -60,7 +57,6 @@ void DiccHash<V>::definir(const string &clav, const V &sig) {
                     l.push_back(a);
                 }
             }
-            delete &_tabla;
             _tabla = tabla;
         }
     }
@@ -72,7 +68,7 @@ void DiccHash<V>::definir(const string &clav, const V &sig) {
  */
 template<class V>
 V &DiccHash<V>::significado(const string &clav) {
-    for(Asociacion a : _tabla[fn_hash(clav)]) {
+    for(Asociacion &a : _tabla[fn_hash(clav)]) {
         if(a.clave == clav) {
             return a.valor;
         }

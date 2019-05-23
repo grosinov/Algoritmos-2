@@ -90,7 +90,9 @@ private:
     struct Asociacion {
             string clave;
             V valor;
+    Asociacion(string _clave, V _valor) : clave(_clave), valor(_valor) {}
     };
+
     vector<list<Asociacion>> _tabla;
     unsigned int _tam;
     unsigned int _cant_claves;
