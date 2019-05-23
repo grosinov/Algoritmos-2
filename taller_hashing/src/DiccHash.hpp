@@ -2,19 +2,11 @@
 
 /* Constructor sin parámetros de la clase */
 template<class V>
-DiccHash<V>::DiccHash() {
-    _cant_claves = 0;
-    _tam = TAM_INICIAL;
-}
+DiccHash<V>::DiccHash() : _tabla(vector<list<Asociacion>>(TAM_INICIAL)), _tam(TAM_INICIAL), _cant_claves(0) {}
 
 /* Destructor */
 template<class V>
-DiccHash<V>::~DiccHash() {
-    delete _tabla;
-    delete _cant_claves;
-    delete _tam;
-
-}
+DiccHash<V>::~DiccHash() {}
 
 /* Devuelve true si la clave está definida en el diccionario.
  * - clav : clave a buscar
@@ -54,7 +46,7 @@ void DiccHash<V>::definir(const string &clav, const V &sig) {
             }
         }
     } else {
-        Asociacion a = new Asociacion;
+        Asociacion a;
         a.clave = clav;
         a.valor = sig;
         _tabla[fn_hash(clav)].push_back(a);
@@ -68,7 +60,7 @@ void DiccHash<V>::definir(const string &clav, const V &sig) {
                     l.push_back(a);
                 }
             }
-            delete _tabla;
+            delete &_tabla;
             _tabla = tabla;
         }
     }
@@ -93,7 +85,16 @@ V &DiccHash<V>::significado(const string &clav) {
  * Precondición: clav está definida en el diccionario */
 template<class V>
 void DiccHash<V>::borrar(const string &clav) {
-    // COMPLETAR
+    for (auto it = _tabla[fn_hash(clav)].begin(); it != _tabla[fn_hash(clav)].end(); it++) {
+        if( it->clave == clav) {
+            _tabla[fn_hash(clav)].erase(it);
+        }
+    }
+//    for(Asociacion a : _tabla[fn_hash(clav)]) {
+//        if(a.clave == clav) {
+//            _tabla[fn_hash(clav)].remove();
+//        }
+//    }
 }
 
 /* Devuelve la cantidad de claves definidas en el diccionario. */
