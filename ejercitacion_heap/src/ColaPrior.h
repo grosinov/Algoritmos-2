@@ -37,6 +37,10 @@ public:
 
 private:
 	vector<T> cola;
+
+	void swap(vector<T>& vec, int& i, int j);
+
+    void encolarEnVec(vector<T>& vec, const T& elem);
 };
 
 #include "ColaPrior.hpp"
