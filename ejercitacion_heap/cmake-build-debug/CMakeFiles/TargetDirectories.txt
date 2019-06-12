@@ -1,0 +1,6 @@
+/home/grosinov/Rosinov/Algoritmos2/ejercitacion_heap/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/grosinov/Rosinov/Algoritmos2/ejercitacion_heap/cmake-build-debug/CMakeFiles/correrValgrind.dir
+/home/grosinov/Rosinov/Algoritmos2/ejercitacion_heap/cmake-build-debug/CMakeFiles/correrTests.dir
+/home/grosinov/Rosinov/Algoritmos2/ejercitacion_heap/cmake-build-debug/CMakeFiles/gtest.dir
+/home/grosinov/Rosinov/Algoritmos2/ejercitacion_heap/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/grosinov/Rosinov/Algoritmos2/ejercitacion_heap/cmake-build-debug/CMakeFiles/gtest_main.dir
