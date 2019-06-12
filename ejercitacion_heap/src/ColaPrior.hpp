@@ -1,12 +1,12 @@
 
 template<class T>
 ColaPrior<T>::ColaPrior() {
-	// COMPLETAR
+	return vector<T>();
 }
 
 template<class T>
 int ColaPrior<T>::tam() const {
-	// COMPLETAR
+	return cola.size();
 }
 
 template<class T>

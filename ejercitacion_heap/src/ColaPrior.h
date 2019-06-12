@@ -36,7 +36,7 @@ public:
 	ColaPrior(const vector<T>& elems);
 
 private:
-	// COMPLETAR
+	vector<T> cola;
 };
 
 #include "ColaPrior.hpp"
