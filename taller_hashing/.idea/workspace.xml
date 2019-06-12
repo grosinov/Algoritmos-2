@@ -14,11 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f3c0332-89e3-4a23-b1ee-a6d2682fce79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ejercitacion_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercitacion_heap/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercitacion_heap/src/ColaPrior.h" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercitacion_heap/src/ColaPrior.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ejercitacion_heap/src/ColaPrior.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercitacion_heap/src/ColaPrior.hpp" afterDir="false" />
-    </list>
+    <list default="true" id="1f3c0332-89e3-4a23-b1ee-a6d2682fce79" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +163,7 @@
       <updated>1558562892427</updated>
       <workItem from="1558562899580" duration="9989000" />
       <workItem from="1559701839594" duration="32000" />
-      <workItem from="1560377263602" duration="998000" />
+      <workItem from="1560377263602" duration="1262000" />
     </task>
     <servers />
   </component>
@@ -204,11 +200,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11019000" />
+    <option name="totallyTimeSpent" value="11283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="60" width="916" height="1020" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3321839" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

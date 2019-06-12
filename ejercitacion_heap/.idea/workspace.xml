@@ -14,11 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb060db8-2d7b-4afc-86fb-cfc21a229b0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ColaPrior.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColaPrior.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ColaPrior.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/ColaPrior.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../taller_hashing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../taller_hashing/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eb060db8-2d7b-4afc-86fb-cfc21a229b0c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,20 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ColaPrior.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state relative-caret-position="502">
+              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/tests_colaprior.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="-1425">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -136,8 +132,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.ColaPrior.desencolarMenor">
+  <component name="RunManager" selected="CMake Application.correrValgrind">
+    <configuration name="ColaPrior.desencolarMayor" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="heap" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="heap" RUN_TARGET_NAME="correrTests" TEST_CLASS="ColaPrior" TEST_METHOD="desencolarMayor" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ColaPrior.desencolarMenor" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="heap" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="heap" RUN_TARGET_NAME="correrTests" TEST_CLASS="ColaPrior" TEST_METHOD="desencolarMenor" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColaPrior.encolarDesencolarPermutaciones" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="heap" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="heap" RUN_TARGET_NAME="correrTests" TEST_CLASS="ColaPrior" TEST_METHOD="encolarDesencolarPermutaciones" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -150,18 +158,6 @@
       </method>
     </configuration>
     <configuration name="ColaPrior.encolarMenor" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="heap" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="heap" RUN_TARGET_NAME="correrTests" TEST_CLASS="ColaPrior" TEST_METHOD="encolarMenor" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ColaPrior.encolarUno" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="heap" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="heap" RUN_TARGET_NAME="correrTests" TEST_CLASS="ColaPrior" TEST_METHOD="encolarUno" TEST_MODE="SUITE_TEST">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-        <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ColaPrior.vacio" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="heap" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="heap" RUN_TARGET_NAME="correrTests" TEST_CLASS="ColaPrior" TEST_METHOD="vacio" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -193,19 +189,19 @@
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
       <item itemvalue="Google Test.correrTests" />
-      <item itemvalue="Google Test.ColaPrior.vacio" />
-      <item itemvalue="Google Test.ColaPrior.encolarUno" />
       <item itemvalue="Google Test.ColaPrior.encolarMenor" />
       <item itemvalue="Google Test.ColaPrior.encolarMayor" />
       <item itemvalue="Google Test.ColaPrior.desencolarMenor" />
+      <item itemvalue="Google Test.ColaPrior.desencolarMayor" />
+      <item itemvalue="Google Test.ColaPrior.encolarDesencolarPermutaciones" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Google Test.ColaPrior.encolarDesencolarPermutaciones" />
+        <item itemvalue="Google Test.ColaPrior.desencolarMayor" />
         <item itemvalue="Google Test.ColaPrior.desencolarMenor" />
         <item itemvalue="Google Test.ColaPrior.encolarMayor" />
         <item itemvalue="Google Test.ColaPrior.encolarMenor" />
-        <item itemvalue="Google Test.ColaPrior.encolarUno" />
-        <item itemvalue="Google Test.ColaPrior.vacio" />
       </list>
     </recent_temporary>
   </component>
@@ -219,45 +215,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560377292598</updated>
-      <workItem from="1560377294204" duration="3347000" />
+      <workItem from="1560377294204" duration="3949000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="correrTests - 2019.06.12 at 20h 00m 40s.xml">
-      <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ColaPrior_vacio - 2019.06.12 at 20h 00m 52s.xml">
-      <configuration name="ColaPrior.vacio" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ColaPrior_encolarUno - 2019.06.12 at 20h 00m 55s.xml">
-      <configuration name="ColaPrior.encolarUno" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ColaPrior_encolarMenor - 2019.06.12 at 20h 00m 57s.xml">
-      <configuration name="ColaPrior.encolarMenor" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ColaPrior_encolarMayor - 2019.06.12 at 20h 01m 00s.xml">
-      <configuration name="ColaPrior.encolarMayor" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ColaPrior_desencolarMenor - 2019.06.12 at 20h 01m 15s.xml">
-      <configuration name="ColaPrior.desencolarMenor" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ColaPrior_desencolarMenor - 2019.06.12 at 20h 01m 59s.xml">
-      <configuration name="ColaPrior.desencolarMenor" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="ColaPrior_desencolarMenor - 2019.06.12 at 20h 02m 37s.xml">
       <configuration name="ColaPrior.desencolarMenor" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
     <history-entry file="ColaPrior_desencolarMenor - 2019.06.12 at 20h 03m 19s.xml">
       <configuration name="ColaPrior.desencolarMenor" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="ColaPrior_desencolarMenor - 2019.06.12 at 20h 05m 56s.xml">
+      <configuration name="ColaPrior.desencolarMenor" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ColaPrior_desencolarMenor - 2019.06.12 at 20h 06m 33s.xml">
+      <configuration name="ColaPrior.desencolarMenor" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ColaPrior_desencolarMenor - 2019.06.12 at 20h 11m 13s.xml">
+      <configuration name="ColaPrior.desencolarMenor" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ColaPrior_desencolarMayor - 2019.06.12 at 20h 11m 29s.xml">
+      <configuration name="ColaPrior.desencolarMayor" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ColaPrior_desencolarMayor - 2019.06.12 at 20h 12m 33s.xml">
+      <configuration name="ColaPrior.desencolarMayor" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ColaPrior_desencolarMayor - 2019.06.12 at 20h 12m 49s.xml">
+      <configuration name="ColaPrior.desencolarMayor" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ColaPrior_encolarDesencolarPermutaciones - 2019.06.12 at 20h 12m 56s.xml">
+      <configuration name="ColaPrior.encolarDesencolarPermutaciones" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="correrTests - 2019.06.12 at 20h 13m 03s.xml">
+      <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3347000" />
+    <option name="totallyTimeSpent" value="3949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
@@ -265,12 +263,12 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Messages" weight="0.32937366" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32937366" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -288,11 +286,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/tests/tests_colaprior.cpp</url>
-          <line>50</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/ColaPrior.hpp</url>
           <line>42</line>
           <option name="timeStamp" value="3" />
@@ -308,20 +301,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/tests_colaprior.cpp">
+    <entry file="file://$PROJECT_DIR$/src/ColaPrior.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="502">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ColaPrior.hpp">
+    <entry file="file://$PROJECT_DIR$/tests/tests_colaprior.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state relative-caret-position="-1425">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
