@@ -14,7 +14,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f3c0332-89e3-4a23-b1ee-a6d2682fce79" name="Default Changelist" comment="" />
+    <list default="true" id="1f3c0332-89e3-4a23-b1ee-a6d2682fce79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ejercitacion_heap/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ejercitacion_heap/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiccHash.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiccHash.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests_dicc_hash.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_dicc_hash.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +35,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DiccHash.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="531">
-              <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+            <state relative-caret-position="57">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <folding>
+                <element signature="e#43#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DiccHash.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1007">
-              <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+            <state relative-caret-position="276">
+              <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -49,8 +56,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/tests_dicc_hash.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="533">
-              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="27">
+              <caret line="151" selection-start-line="151" selection-end-line="151" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,6 +70,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>um</find>
+      <find>data</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -69,11 +80,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/DiccHash.h" />
+        <option value="$PROJECT_DIR$/tests/tests_dicc_hash.cpp" />
         <option value="$PROJECT_DIR$/src/DiccHash.hpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="65" />
     <option name="y" value="60" />
     <option name="width" value="916" />
@@ -86,7 +98,27 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="taller_hash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taller_hashing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taller_hash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taller_hashing" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taller_hash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taller_hashing" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -110,7 +142,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.DiccHash.string_vacio">
+  <component name="RunManager" selected="Google Test.DiccHash.colisiones_uniforme">
+    <configuration name="DiccHash.colisiones_gaussiana" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_hash" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_hash" RUN_TARGET_NAME="correrTests" TEST_CLASS="DiccHash" TEST_METHOD="colisiones_gaussiana" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiccHash.colisiones_uniforme" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_hash" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_hash" RUN_TARGET_NAME="correrTests" TEST_CLASS="DiccHash" TEST_METHOD="colisiones_uniforme" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiccHash.definir" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_hash" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_hash" RUN_TARGET_NAME="correrTests" TEST_CLASS="DiccHash" TEST_METHOD="definir" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiccHash.string_vacio" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller_hash" TARGET_NAME="correrTests" RUN_TARGET_PROJECT_NAME="taller_hash" RUN_TARGET_NAME="correrTests" TEST_CLASS="DiccHash" TEST_METHOD="string_vacio" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -139,15 +189,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Google Test.DiccHash.string_vacio" />
-      <item itemvalue="Google Test.correrTests" />
       <item itemvalue="CMake Application.correrValgrind" />
       <item itemvalue="CMake Application.gtest" />
       <item itemvalue="CMake Application.gtest_main" />
+      <item itemvalue="Google Test.correrTests" />
+      <item itemvalue="Google Test.DiccHash.string_vacio" />
+      <item itemvalue="Google Test.DiccHash.definir" />
+      <item itemvalue="Google Test.DiccHash.colisiones_gaussiana" />
+      <item itemvalue="Google Test.DiccHash.colisiones_uniforme" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Google Test.DiccHash.colisiones_uniforme" />
+        <item itemvalue="Google Test.DiccHash.colisiones_gaussiana" />
         <item itemvalue="Google Test.DiccHash.string_vacio" />
+        <item itemvalue="Google Test.DiccHash.definir" />
       </list>
     </recent_temporary>
   </component>
@@ -163,61 +219,62 @@
       <updated>1558562892427</updated>
       <workItem from="1558562899580" duration="9989000" />
       <workItem from="1559701839594" duration="32000" />
-      <workItem from="1560377263602" duration="1262000" />
+      <workItem from="1560377263602" duration="6211000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="correrTests - 2019.05.22 at 21h 29m 09s.xml">
+    <history-entry file="DiccHash_colisiones_uniforme - 2019.06.12 at 21h 28m 41s.xml">
+      <configuration name="DiccHash.colisiones_uniforme" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DiccHash_colisiones_uniforme - 2019.06.12 at 21h 29m 43s.xml">
+      <configuration name="DiccHash.colisiones_uniforme" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="correrTests - 2019.06.12 at 21h 30m 26s.xml">
       <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="correrTests - 2019.05.22 at 21h 29m 39s.xml">
+    <history-entry file="correrTests - 2019.06.12 at 21h 34m 16s.xml">
       <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="correrTests - 2019.05.22 at 21h 33m 15s.xml">
+    <history-entry file="correrTests - 2019.06.12 at 21h 35m 20s.xml">
       <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="correrTests - 2019.05.22 at 21h 42m 05s.xml">
-      <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="DiccHash_colisiones_uniforme - 2019.06.12 at 21h 36m 35s.xml">
+      <configuration name="DiccHash.colisiones_uniforme" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="correrTests - 2019.05.22 at 21h 45m 25s.xml">
-      <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="DiccHash_colisiones_uniforme - 2019.06.12 at 21h 37m 06s.xml">
+      <configuration name="DiccHash.colisiones_uniforme" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="correrTests - 2019.05.22 at 21h 46m 21s.xml">
-      <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="DiccHash_colisiones_uniforme - 2019.06.12 at 21h 38m 00s.xml">
+      <configuration name="DiccHash.colisiones_uniforme" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="correrTests - 2019.05.22 at 21h 46m 24s.xml">
-      <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="DiccHash_colisiones_uniforme - 2019.06.12 at 21h 38m 54s.xml">
+      <configuration name="DiccHash.colisiones_uniforme" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="correrTests - 2019.05.22 at 21h 52m 14s.xml">
-      <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="correrTests - 2019.05.22 at 21h 53m 29s.xml">
-      <configuration name="correrTests" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="DiccHash_string_vacio - 2019.05.22 at 21h 53m 39s.xml">
-      <configuration name="DiccHash.string_vacio" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="DiccHash_colisiones_uniforme - 2019.06.12 at 21h 39m 11s.xml">
+      <configuration name="DiccHash.colisiones_uniforme" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11283000" />
+    <option name="totallyTimeSpent" value="16232000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="60" width="916" height="1020" extended-state="0" />
+    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3321839" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15421557" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32937366" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.342312" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -230,6 +287,61 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/tests/tests_dicc_hash.cpp</url>
+          <line>151</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/DiccHash.hpp</url>
+          <line>142</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeGoogleTestRunConfigurationType">
+        <watch expression="dh._tabla[50]" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>archin.</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>archin.bad()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getline(archin)</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>c_str()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>archnom.c_str()</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>archnom.c_str()*</expression-string>
+        <language-id>ObjectiveC</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/include/c++/7/bits/list.tcc">
       <provider selected="true" editor-type-id="text-editor">
@@ -238,31 +350,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/c++/7/bits/basic_string.h">
+    <entry file="file://$PROJECT_DIR$/tests/gtest-1.8.1/gtest-all.cc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="6018" selection-start-line="6018" selection-end-line="6018" />
+        <state relative-caret-position="19">
+          <caret line="3900" selection-start-line="3900" selection-end-line="3900" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/tests_dicc_hash.cpp">
+    <entry file="file://$PROJECT_DIR$/data/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/basic_ios.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="198">
+          <caret line="179" column="6" selection-start-line="179" selection-start-column="6" selection-end-line="179" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/uniforme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7125" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="2279" column="6" selection-start-line="2279" selection-start-column="6" selection-end-line="2279" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DiccHash.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
+        <state relative-caret-position="57">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#43#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/tests_dicc_hash.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DiccHash.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="53" column="49" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+        <state relative-caret-position="276">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
         </state>
       </provider>
     </entry>

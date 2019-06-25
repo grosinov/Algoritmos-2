@@ -81,16 +81,13 @@ V &DiccHash<V>::significado(const string &clav) {
  * Precondición: clav está definida en el diccionario */
 template<class V>
 void DiccHash<V>::borrar(const string &clav) {
-    for (auto it = _tabla[fn_hash(clav)].begin(); it != _tabla[fn_hash(clav)].end(); it++) {
+    int h = fn_hash(clav);
+    for (auto it = _tabla[h].begin(); it != _tabla[h].end() && _tabla[h].size() > 0; it++) {
         if( it->clave == clav) {
-            _tabla[fn_hash(clav)].erase(it);
+            _tabla[h].erase(it);
         }
     }
-//    for(Asociacion a : _tabla[fn_hash(clav)]) {
-//        if(a.clave == clav) {
-//            _tabla[fn_hash(clav)].remove();
-//        }
-//    }
+    _cant_claves--;
 }
 
 /* Devuelve la cantidad de claves definidas en el diccionario. */
@@ -143,9 +140,13 @@ unsigned int DiccHash<V>::colisiones() const {
  */
 template<class V>
 unsigned int DiccHash<V>::fn_hash(const string &str) const {
-    int i;
-    for( i=0; i<str.length(); i++ ) {
-        i = 197*i + int(str[i]);
+    int i = 0;
+    if(str.size() == 0) {
+        i = 32;
+    } else {
+        for(int j=0; j<str.size(); j++ ) {
+            i = 197*i + int(str[j]);
+        }
     }
     return i % _tam;
 }
